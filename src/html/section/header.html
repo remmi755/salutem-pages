@@ -1,0 +1,37 @@
+<header class="header">
+    <div class="container">
+        <div class="header-nav d-flex">
+            <div class="logo-block">
+                <a class="logo" href="#!">
+                    <svg class="svg-logo">
+                        <use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+                    </svg>
+                </a>
+                <div class="btn-wrapper">
+                    <button id="close" class="btn-close_mobile">
+                        <svg class="svg-close">
+                            <use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+                        </svg>
+                    </button>
+                    <button id="open" class="btn_hamburger-menu">
+                        <svg class="svg_hamburger-menu">
+                            <use href="./img/svgsprite/sprite.symbol.svg#hamburger-menu"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <nav class="header-menu d-flex">
+                <a class="body1 smooth-scroll" href="#advantages">Переваги</a>
+                <a class="body1 smooth-scroll" href="#price">Програми</a>
+                <a class="body1 smooth-scroll" href="#doctors">Лікарі</a>
+                <a class="body1 smooth-scroll" href="#questions">FAQ</a>
+                <a class="body1 smooth-scroll" href="#reviews">Відгуки</a>
+            </nav>
+            <div class="actions">
+                @@include('../blocks/actions-tel.html')
+                @@include('../blocks/social.html')
+                <p class="address caption">м. Вінниця вул. Замостянська, 13</p>
+            </div>
+        </div>
+    </div>
+</header>

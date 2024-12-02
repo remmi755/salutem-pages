@@ -1,0 +1,153 @@
+.header {
+  height: remy(120);
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+
+  @media (max-width: 1352px) {
+    padding-inline: remy(20);
+  }
+
+  @media (max-width: 768px) {
+    height: 100%;
+    padding: 19px 16px;
+  }
+}
+
+.header-nav {
+  justify-content: space-between;
+
+  .logo-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 56px;
+    }
+
+    .logo {
+
+      @media (max-width: 991px) {
+        width: 150px;
+        height: 50px;
+
+        .svg-logo {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .btn-close_mobile {
+      display: none;
+      width: 32px;
+      height: 32px;
+
+      .svg-close {
+        width: 20px;
+        height: 20px;
+        stroke: var(--primary);
+        display: inline-block;
+      }
+    }
+
+    .btn-wrapper {
+      display: none;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
+    .btn_hamburger-menu {
+      display: none;
+      width: 32px;
+      height: 32px;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+  }
+
+  .header-menu {
+    gap: remy(16);
+
+    @media (max-width: 991px) {
+      gap: 0;
+    }
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    a {
+      padding: remy(8);
+    }
+
+    .body1 {
+      font-weight: 500;
+      color: var(--light-black);
+
+      @media (max-width: 991px) {
+        font-size: remy(16);
+      }
+    }
+
+    .body1:hover {
+      color: var(--primary);
+    }
+  }
+
+  .actions {
+    color: var(--primary);
+    display: flex;
+    gap: remy(56);
+    align-items: center;
+
+    @media (max-width: 1199px) {
+      gap: remy(20);
+    }
+
+    @media (max-width: 991px) {
+      .body1 {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    .social {
+      gap: remy(16);
+
+      @media (max-width: 991px) {
+        gap: remy(8);
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    .address {
+      display: none;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+  }
+}
+
+
+

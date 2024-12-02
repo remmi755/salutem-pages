@@ -1,0 +1,37 @@
+/* Base */
+//@import './base/reset';
+
+@import "base/_var";
+@import "base/_base";
+@import "base/_typography";
+@import "base/_icons";
+@import "base/_form";
+
+//@import "blocks/_buttons";
+//@import "blocks/_header-menu";
+//@import "blocks/_header-search__wrapper";
+//@import "blocks/_burger";
+//@import "blocks/_card";
+
+
+//@import "sections/_header";
+//@import "sections/_header-slider";
+//@import "sections/_result";
+//@import "sections/_cta";
+//@import "sections/_premium";
+//@import "sections/_stories";
+//@import "sections/_app";
+//@import "sections/_social";
+//@import "sections/_footer";
+
+
+
+/* Blocks */
+@import './blocks/*.scss';
+
+/* Sections */
+
+@import './sections/*.scss';
+
+/* No styles code below. Only in modules */
+/* Не пишите CSS код ниже. Только в подключаемых файлах */

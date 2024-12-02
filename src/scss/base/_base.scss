@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../fonts/Nunito/Nunito-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../fonts/Nunito/Nunito-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../fonts/Nunito/Nunito-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../fonts/Nunito/Nunito-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../../fonts/Nunito/Nunito-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../../fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@function remy($pxsize) {
+  @return calc(($pxsize/16))+rem
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  --ac: #E43071;
+  --subAc: #FFC1D8;
+  --outBr: #FFDAE7;
+  --darkAc: #BE285E;
+  --decoreColor: #f8c5d7;
+}
+
+body.green-theme {
+  --ac: #26D68A;
+  --subAc: #9BE8C7;
+  --outBr: #a1e7c9;
+  --darkAc: #0b9056;
+  --decoreColor: #8fc089;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+
+a {
+  display: inline-block;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+button,
+a {
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+button,
+input,
+  //button:focus,
+input:focus {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: remy(160);
+  margin-bottom: 144px;
+
+  @media (max-width: 1199px) {
+    gap: remy(60);
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 34px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: remy(1346);
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.bg_light-pink {
+  background-color: #FFEBFD;
+}
+
+.bg_green-1 {
+  background-color: var(--green-1);
+}
+
+.bg_light-blue {
+  background-color: #DFE5FF;
+}
+
+.container-full {
+  width: 100%;
+  max-width: remy(1440);
+  margin: 0 auto;
+}
+
+.container-slim {
+  width: 100%;
+  max-width: remy(1088);
+  margin: 0 auto;
+
+  @media (max-width: 1199px) {
+    padding-inline: remy(30);
+  }
+
+
+  @media (max-width: 768px) {
+    padding-inline: remy(16);
+  }
+}
+
+.social {
+  display: flex;
+}
+
+//TABS
+
+.tabs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.tabs-item {
+  border: 1.50px solid var(--gray-blue);
+  border-radius: 40px;
+  padding: 28px;
+
+  .tabs-item__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tabs-item__desc {
+    margin-top: 20px;
+    display: none;
+
+    .body {
+      color: #2d3f48;
+      font-weight: 500;
+    }
+  }
+}
+
+.tabs-open {
+  background-color: var(--green-2);
+  padding: 40px 28px !important;
+  transition: 0.3s;
+}
+
+.svg-close {
+  display: none;
+}
+
+//SWIPER
+
+.swiper {
+  width: 1312px;
+  height: 585px;
+}
+
+.slider-button-prev, .slider-button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--primary) !important;
+}
+
+.slider-button-prev:hover, .slider-button-next:hover {
+  background-color: var(--primary);
+
+  svg {
+    fill: var(--white);
+  }
+}

@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Salutem</title>
+		<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />-->
+		<link rel="stylesheet" href="../lib/swiper/swiper-bundle.min.css" />
+		<!--	<link rel="stylesheet" href="../src/lib/swiper/swiper-bundle.min.css" />-->
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<div class="popup__wrapper popup">
+			<div class="popup__content">
+				<div class="popup__body">
+					<section class="consultation">
+						<h2 class="h1-mobile">Запис на&#160;безоплатну консультацію</h2>
+						<p class="body">Запишіться на&#160;безоплатну консультацію з&#160;лікарем-гінекологом для обговорення індивідуального плану вагітності</p>
+						<form action="" class="form-contacts">
+							<input type="text" class="input" placeholder="Введіть ваше ім’я" />
+							<input type="tel" class="input" placeholder="+38(000)000-00-00" />
+							<button class="btn btn-success">Записатись</button>
+						</form>
+						<p class="caption">Відправляючи запит ви&#160;погоджуєтесь на&#160;обробку персональних данних</p>
+					</section>
+
+					<button class="popup__close">
+						<svg class="popup__svg-close">
+							<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="popup__wrapper popup__success">
+			<div class="popup__content">
+				<div class="popup__body">
+					<section id="contacts" class="popup-success_body">
+						<h2 class="h1-mobile">Дякуємо, що&#160;записались до&#160;лікаря!</h2>
+						<p class="body">Найближчим часом з&#160;вами зв&#8217;яжеться менеджер для уточнення запису</p>
+						<picture>
+							<source srcset="./img/popup-success.webp 1x, ./img/popup-success@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/popup-success.jpg 1x, ./img/popup-success@2x.jpg 2x" type="image/jpeg" />
+							<img src="./img/popup-success.jpg" width="606" height="200" alt="popup-success" />
+						</picture>
+						<svg class="svg-logo">
+							<use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+						</svg>
+
+						<p class="body1">Ваше здоровя&#160;&#8212; наш пріоритет!</p>
+					</section>
+					<button class="popup__close">
+						<svg class="popup__svg-close">
+							<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="container">
+				<div class="header-nav d-flex">
+					<div class="logo-block">
+						<a class="logo" href="#!">
+							<svg class="svg-logo">
+								<use href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+							</svg>
+						</a>
+						<div class="btn-wrapper">
+							<button id="close" class="btn-close_mobile">
+								<svg class="svg-close">
+									<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+								</svg>
+							</button>
+							<button id="open" class="btn_hamburger-menu">
+								<svg class="svg_hamburger-menu">
+									<use href="./img/svgsprite/sprite.symbol.svg#hamburger-menu"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+					<nav class="header-menu d-flex">
+						<a class="body1 smooth-scroll" href="#advantages">Переваги</a>
+						<a class="body1 smooth-scroll" href="#price">Програми</a>
+						<a class="body1 smooth-scroll" href="#doctors">Лікарі</a>
+						<a class="body1 smooth-scroll" href="#questions">FAQ</a>
+						<a class="body1 smooth-scroll" href="#reviews">Відгуки</a>
+					</nav>
+					<div class="actions">
+						<a href="#" class="actions-tel">
+							<svg class="svg-tel">
+								<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+							</svg>
+							<span class="body1">0 800 338 008</span>
+						</a>
+						<div class="social">
+							<a href="#" class="">
+								<svg class="svg-instagram">
+									<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+								</svg>
+							</a>
+							<a href="#" class="">
+								<svg class="svg-facebook">
+									<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+								</svg>
+							</a>
+							<a href="#" class="">
+								<svg class="svg-telegram">
+									<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
+								</svg>
+							</a>
+						</div>
+						<p class="address caption">м. Вінниця&#160;вул. Замостянська, 13</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="mobile" class="mobile-menu">
+			<nav class="header-menu_mobile d-flex">
+				<a class="body1 smooth-scroll" href="#advantages">Переваги</a>
+				<a class="body1 smooth-scroll" href="#price">Програми</a>
+				<a class="body1 smooth-scroll" href="#doctors">Лікарі</a>
+				<a class="body1 smooth-scroll" href="#questions">FAQ</a>
+				<a class="body1 smooth-scroll" href="#reviews">Відгуки</a>
+			</nav>
+			<div class="actions_mobile">
+				<a href="#" class="actions-tel">
+					<svg class="svg-tel">
+						<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+					</svg>
+					<span class="body1">0 800 338 008</span>
+				</a>
+				<div class="social">
+					<a href="#" class="">
+						<svg class="svg-instagram">
+							<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+						</svg>
+					</a>
+					<a href="#" class="">
+						<svg class="svg-facebook">
+							<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+						</svg>
+					</a>
+					<a href="#" class="">
+						<svg class="svg-telegram">
+							<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
+						</svg>
+					</a>
+				</div>
+				<p class="address caption">м. Вінниця&#160;вул. Замостянська, 13</p>
+			</div>
+
+			<a class="btn btn-popup display-3" href="#!">Записатись</a>
+		</div>
+
+		<main class="main">
+			<section class="hero container-full">
+				<picture>
+					<source srcset="./img/hero-img.webp 1x, ./img/hero-img@2x.webp 2x" type="image/webp" />
+					<source srcset="./img/hero-img.jpg 1x, ./img/hero-img@2x.jpg 2x" type="image/jpeg" />
+					<img src="./img/hero-img.jpg" alt="hero-img" height="870" width="1440" />
+				</picture>
+				<div class="hero-ellipse"></div>
+				<div class="hero-info_bg-top"></div>
+				<div class="hero-info">
+					<h1 class="h1">Дбайливе ведення вагітності в&#160;Салютем</h1>
+					<p class="body">Запишіться на&#160;безоплатну консультацію з&#160;лікарем-гінекологом для обговорення індивідуального плану вагітності</p>
+					<a class="btn btn-popup display-3" href="#!">Записатись</a>
+				</div>
+			</section>
+			<section id="support" class="pregnancy-support">
+				<div class="container-slim">
+					<h2 class="h2">Комплексний супровід вагітності в&#160;Салютем</h2>
+					<div class="video-container">
+						<!--            <video class="video" autoplay loop muted width="100%" height="100%">-->
+						<video id="video1" class="video" width="100%" height="100%">
+							<source src="./img/video-3.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						<button class="svg-play-btn play-btn">
+							<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g filter="url(#filter0_b_436_1094)">
+									<circle cx="39" cy="39" r="35" fill="#BCDEC1" fill-opacity="0.6" />
+									<circle cx="39" cy="39" r="37" stroke="white" stroke-width="4" />
+								</g>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M28.9995 30.6444C28.9995 28.7629 31.0169 27.5701 32.6662 28.4766L47.8926 36.8524C49.6013 37.7918 49.6013 40.2473 47.8926 41.1868L32.6676 49.5626C31.0183 50.4691 29.0008 49.2763 29.0008 47.3948L28.9995 30.6444Z"
+									fill="white"
+								/>
+								<defs>
+									<filter id="filter0_b_436_1094" x="-10" y="-10" width="98" height="98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+										<feFlood flood-opacity="0" result="BackgroundImageFix" />
+										<feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+										<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_436_1094" />
+										<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_436_1094" result="shape" />
+									</filter>
+								</defs>
+							</svg>
+						</button>
+					</div>
+					<div class="pregnancy-support_cards">
+						<div class="cards-left">
+							<div class="pregnancy-support_card card-green">
+								<div class="card-img img-about1"></div>
+								<p class="body">Ведення вагітності висококваліфікованим <span class="body-bold">лікарем-гінекологом.</span></p>
+							</div>
+							<div class="pregnancy-support_card card-yellow">
+								<div class="card-img img-about2"></div>
+								<p class="body">Додаткові консультації <span class="body-bold">вузьких спеціалістів</span> у&#160;разі необхідності.</p>
+							</div>
+							<div class="pregnancy-support_card card-pink">
+								<div class="card-img img-about3"></div>
+								<p class="body">Усі <span class="body-bold">лабораторні дослідження</span> рекомендовані МОЗ України.</p>
+							</div>
+							<div class="pregnancy-support_card">
+								<div class="card-img img-about4 card-shadow"></div>
+								<p class="body">
+									УЗД -діагностика у&#160;форматі 3D з&#160;можливістю отримання фото та&#160;відео вашого малюка на сучасному апараті
+									<span class="body-bold">Voluson F8.</span>
+								</p>
+							</div>
+						</div>
+						<div class="cards-right">
+							<div class="pregnancy-support_card card-green">
+								<div class="card-img img-about5"></div>
+								<p class="body">Безпечна кардіотокографія на&#160;сучасному обладнанні <span class="body-bold">Sonicaid.</span></p>
+							</div>
+							<div class="pregnancy-support_card card-yellow">
+								<div class="card-img img-about6"></div>
+								<p class="body">
+									<span class="body-bold">Пренатальні скринінги</span> з&#160;розрахунком ризиків генетичних паталогій за допомогою новітнього програмного
+									забезпечення.
+								</p>
+							</div>
+							<div class="pregnancy-support_card ">
+								<div class="card-img img-about7 card-shadow"></div>
+								<p class="body">
+									Заняття в&#160;<span class="body-bold">&#171;Школі батьківства&#187;</span>, де&#160;майбутні батьки отримають корисні знання та підтримку.
+								</p>
+							</div>
+							<div class="pregnancy-support_card card-pink">
+								<div class="card-img img-about8"></div>
+								<p class="body">
+									Релаксуючі <span class="body-bold">заняття пілатесом</span> для вагітних, що&#160;сприяють покращенню фізичного і психологічного стану.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="advantages" class="advantages">
+				<div class="container">
+					<h2 class="h2">Переваги супроводу вагітності в&#160;Салютем</h2>
+					<div class="blocks-info">
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-diagnostic">
+										<use href="./img/svgsprite/sprite.symbol.svg#diagnostic"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Фахові лікарі</p>
+								<p class="body">Наші лікарі мають сертифікацію FMF, що&#160;є важливим для точних розрахунків ризиків у пренатальних скринінгах.</p>
+							</div>
+						</a>
+						<div id="adv-img1" class="block-img">
+							<picture>
+								<source srcset="./img/advantages-mob1.webp 1x, ./img/advantages-mob1@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/advantages-mob1.jpg 1x, ./img/advantages-mob1@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/advantages-mob1.jpg" alt="advantages-img1" width="250" height="250" />
+							</picture>
+						</div>
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-puzzle">
+										<use href="./img/svgsprite/sprite.symbol.svg#puzzle"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Турбота і затишок</p>
+								<p class="body">Ми&#160;піклуємося про те, щоб ви&#160;відчували впевненість і комфорт протягом всієї вагітності.</p>
+							</div>
+						</a>
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-cardiogram">
+										<use href="./img/svgsprite/sprite.symbol.svg#cardiogram"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Новітне обладнання</p>
+								<p class="body">Для проведення УЗД та&#160;КТГ використовуємо сучасне обладнання провідних світових брендів: Voluson, Sonicaid.</p>
+							</div>
+						</a>
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-mind">
+										<use href="./img/svgsprite/sprite.symbol.svg#mind"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Комплексний підхід</p>
+								<p class="body">
+									Усі необхідні консультації, лабораторні та&#160;інструментальні дослідження ви&#160;отримуєте в&#160;межах одного медичного центру.
+								</p>
+							</div>
+						</a>
+						<div id="adv-img2" class="block-img">
+							<picture>
+								<source srcset="./img/advantages-mob2.webp 1x, ./img/advantages-mob2@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/advantages-mob2.jpg 1x, ./img/advantages-mob2@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/advantages-mob2.jpg" alt="advantages-img2" width="250" height="250" />
+							</picture>
+						</div>
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-earth-globe">
+										<use href="./img/svgsprite/sprite.symbol.svg#earth-globe"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Школа батьківства</p>
+								<p class="body">Цікаві заняття з&#160;кандидатом психологічних наук, гінекологом, педіатром, генетиком та консультантом із грудного вигодовування.</p>
+							</div>
+						</a>
+						<a class="block-info">
+							<div class="block-info_left">
+								<div class="icon-wrapper">
+									<svg class="svg-network">
+										<use href="./img/svgsprite/sprite.symbol.svg#network"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="block-info_right">
+								<p class="h3">Постійна підтримка</p>
+								<p class="body">Можливість комунікації з&#160;усіх необхідних питань на&#160;відстані.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section id="price" class="price">
+				<div class="container">
+					<h2 class="h2">Програми супроводу вагітності</h2>
+					<div class="price-cards">
+						<div class="card">
+							<div class="card-top">
+								<div class="ellipse ellipse-start">
+									<p class="title">Пакет супроводу вагітності</p>
+									<h3 class="name">НСЗУ</h3>
+									<div class="header-info">
+										<svg class="svg-star svg-star_start">
+											<use href="./img/sprite/my-sprite.svg#startex"></use>
+										</svg>
+										<div class="price">0 гр*</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-bottom">
+								<p class="card-text caption">
+									*Пакет супроводу вагітності НСЗУ&#160;&#8212; це&#160;необхідний набір послуг для майбутніх мам, що&#160;надається безкоштовно в рамках державної
+									програми медичних гарантій НСЗУ. Завдяки нашій співпраці з&#160;НСЗУ, ви&#160;маєте можливість отримати в&#160;сучасному медичному центрі всі
+									важливі обстеження, аналізи та&#160;консультації без додаткових витрат.
+								</p>
+							</div>
+							<div class="card-footer">
+								<button class="btn-outline btn-popup">Записатись</button>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-top">
+								<div class="ellipse ellipse-optimal">
+									<p class="title">Пакет супроводу вагітності</p>
+									<h3 class="name">Оптимальний</h3>
+									<div class="header-info">
+										<svg class="svg-star svg-star_optimal">
+											<use href="./img/sprite/my-sprite.svg#startex"></use>
+										</svg>
+										<div class="price">23 500 грн</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-bottom">
+								<div class="card-body">
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">I</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">8 700 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">II</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">5 800 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">III</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">10 500 грн</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<button class="btn-outline btn-popup">Записатись</button>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-top">
+								<div class="ellipse ellipse-all">
+									<p class="title">Пакет супроводу вагітності</p>
+									<h3 class="name">Всеохоплюючий</h3>
+									<div class="header-info">
+										<svg class="svg-star svg-star_all">
+											<use href="./img/sprite/my-sprite.svg#startex"></use>
+										</svg>
+										<div class="price">31 500 грн</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-bottom">
+								<div class="card-body">
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">I</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">14 700 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">II</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">6 900 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">III</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">12 000 грн</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<button class="btn-outline btn-popup">Записатись</button>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-top">
+								<div class="ellipse ellipse-all_twice">
+									<p class="title">Пакет супроводу вагітності</p>
+									<h3 class="name">Всеохоплюючий-двійня</h3>
+									<div class="header-info">
+										<svg class="svg-star svg-star_all-twice">
+											<use href="./img/sprite/my-sprite.svg#startex"></use>
+										</svg>
+										<div class="price">44 000 грн</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-bottom">
+								<div class="card-body">
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">I</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">18 000 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">II</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">11 700 грн</p>
+									</div>
+									<div class="card-row">
+										<div class="card-left">
+											<div class="trimester-number body">III</div>
+											<span class="body">триместр</span>
+										</div>
+										<p class="body">19 500 грн</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer">
+								<button class="btn-outline btn-popup">Записатись</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="stages" class="stages">
+				<div class="container">
+					<h2 class="h2">Етапи ведення вагітності</h2>
+					<div class="stages-body">
+						<div class="stages-img">
+							<picture>
+								<source srcset="./img/stages-img.webp 1x, ./img/stages-img@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/stages-img.jpg 1x, ./img/stages-img@2x.jpg 2x" type="image/jpeg" />
+								<img src="./img/stages-img.jpg" alt="stages-img" width="580" height="404" />
+							</picture>
+						</div>
+						<div class="tabs-list">
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">7-12 тиждень</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										На&#160;першому візиті лікар-гінеколог приділяє увагу загальному самопочуттю, обговорює відчуття та&#160;емоції, що&#160;виникають
+										у&#160;зв&#8217;язку з&#160;вагітністю. Проводиться первинний огляд, ультразвукове досліджкння, а&#160;також лабораторні аналізи для оцінки
+										стану матері і розвитку плода.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">12-28 тиждень</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										На&#160;першому візиті лікар-гінеколог приділяє увагу загальному самопочуттю, обговорює відчуття та&#160;емоції, що&#160;виникають
+										у&#160;зв&#8217;язку з&#160;вагітністю. Проводиться первинний огляд, ультразвукове досліджкння, а&#160;також лабораторні аналізи для оцінки
+										стану матері і розвитку плода.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">12-28 тиждень</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										На&#160;першому візиті лікар-гінеколог приділяє увагу загальному самопочуттю, обговорює відчуття та&#160;емоції, що&#160;виникають
+										у&#160;зв&#8217;язку з&#160;вагітністю. Проводиться первинний огляд, ультразвукове досліджкння, а&#160;також лабораторні аналізи для оцінки
+										стану матері і розвитку плода.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">28-36 тиждень</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										На&#160;першому візиті лікар-гінеколог приділяє увагу загальному самопочуттю, обговорює відчуття та&#160;емоції, що&#160;виникають
+										у&#160;зв&#8217;язку з&#160;вагітністю. Проводиться первинний огляд, ультразвукове досліджкння, а&#160;також лабораторні аналізи для оцінки
+										стану матері і розвитку плода.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">36-40 тиждень</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										На&#160;першому візиті лікар-гінеколог приділяє увагу загальному самопочуттю, обговорює відчуття та&#160;емоції, що&#160;виникають
+										у&#160;зв&#8217;язку з&#160;вагітністю. Проводиться первинний огляд, ультразвукове досліджкння, а&#160;також лабораторні аналізи для оцінки
+										стану матері і розвитку плода.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="steps" class="steps">
+				<div class="container">
+					<h2 class="h2">4 простих кроки до&#160;супроводу вагітності в&#160;Салютем</h2>
+					<div class="steps-list">
+						<div class="steps-row">
+							<div class="steps-item">
+								<div class="steps-number bg-green-1 h2-mobile">1</div>
+								<div class="steps-body">
+									<h3 class="display-1">Контакт</h3>
+									<p class="body">
+										Зв&#8217;яжіться з&#160;нами зручним способом: зателефонуйте, напишіть через месенджери або соціальні мережі, залиште заявку на&#160;сайті
+										чи&#160;завітайте до&#160;рецепції медичного центру.
+									</p>
+									<div class="steps-bottom">
+										<a href="#">
+											<svg class="svg-instagram">
+												<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+											</svg>
+										</a>
+										<a href="#">
+											<svg class="svg-facebook">
+												<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+											</svg>
+										</a>
+										<a href="#">
+											<svg class="svg-telegram">
+												<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
+											</svg>
+										</a>
+										<a href="#">
+											<svg class="svg-phone2">
+												<use href="./img/svgsprite/sprite.symbol.svg#phone2"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="steps-item">
+								<div class="steps-number bg-orange h2-mobile">2</div>
+								<div class="steps-body">
+									<h3 class="display-1">Вибір лікаря</h3>
+									<p class="body">
+										Виберіть лікаря-гінеколога, який буде супроводжувати вашу вагітність і піклуватися про ваше здоров&#8217;я та&#160;здоров&#8217;я вашого
+										малюка. Запишіться на&#160;безоплатну консультацію з&#160;обраним фахівцем.
+									</p>
+									<div class="steps-bottom">
+										<a href="#doctors" class="body1-bold">
+											Наші лікарі
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="steps-row">
+							<div class="steps-item">
+								<div class="steps-number bg-pink h2-mobile">3</div>
+								<div class="steps-body">
+									<h3 class="display-1">Візит на&#160;консультацію</h3>
+									<p class="body">
+										Зустріньтеся з&#160;лікарем на&#160;прийомі, де&#160;ви&#160;обговорите індивідуальний план супроводу вагітності. Лікар детально пояснить всі
+										етапи та&#160;відповість на&#160;ваші запитання.
+									</p>
+									<div class="steps-bottom">
+										<a href="#" class="body1-bold">
+											м. Вінниця&#160;вул. Замостянська, 13
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="steps-item">
+								<div class="steps-number bg-white h2-mobile">4</div>
+								<div class="steps-body">
+									<h3 class="display-1">Вибір пограми</h3>
+									<p class="body">
+										Оберіть пакет супроводу вагітності в&#160;медичному центрі Салютем, який найкраще відповідає вашим потребам та&#160;очікуванням.
+									</p>
+									<div class="steps-bottom">
+										<a href="#price" class="body1-bold">
+											Обрати програму
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="doctors" class="doctors">
+				<div class="container">
+					<h2 class="h2">Наші лікарі</h2>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper doctors-list">
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="card-doctor">
+									<div class="card-body">
+										<picture>
+											<source srcset="./img/doctors.webp 1x, ./img/doctors@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/doctors.jpg 1x, ./img/doctors@2x.jpg 2x" type="image/jpeg" />
+											<img src="./img/doctors.jpg" alt="doctors" />
+										</picture>
+										<div class="card-doctor_info">
+											<h4 class="body1-bold">Герасименко Ольга Сергіївна</h4>
+											<p class="caption">Лікар-гінеколог</p>
+											<div class="card-doctor_more">
+												<span class="body-bold">більше</span>
+												<svg class="svg-arrow-down">
+													<use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="card-doctor_info-more">
+											<ul class="info-more_list">
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+												<li class="info-more_item">
+													<p class="body-bold">з&#160;2006 р.</p>
+													<p class="caption">Лікар-ординатор нейрохірургічного відділення ВОПНЛ ім. акад. О.І. Ющенко.</p>
+												</li>
+											</ul>
+											<svg class="svg-arrow-up">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-up"></use>
+											</svg>
+										</div>
+									</div>
+									<div class="card-doctor_footer">
+										<button class="btn-outline btn-popup">Записатись</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--            <div class="swiper-pagination"></div>-->
+						<div class="slider-navigation">
+							<button class="slider-button-prev">
+								<svg class="svg-prev">
+									<use href="./img/svgsprite/sprite.symbol.svg#arrow-left"></use>
+								</svg>
+							</button>
+							<button class="slider-button-next">
+								<svg class="svg-next">
+									<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="questions" class="questions">
+				<div class="container">
+					<h2 class="h2">Часті запитання?</h2>
+					<div class="questions-body">
+						<div class="tabs-list">
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">Які відмінності між пакетами супроводу?</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										Щоб стати на&#160;облік у&#160;зв&#8217;язку з&#160;вагітністю, для початку потрібно вибрати лікаря. Потім для реєстрації будуть необхідні
+										паспорт та&#160;ідентифікаційний&#160;код. Вагітна заповнить &#171;Анкету вагітної&#187;. Лікар-гінеколог заповнить &#171;Індивідуальну карту
+										вагітної&#187; та&#160;видасть &#171;Обмінну карту&#187;. Обмінну карту слід брати на&#160;всі огляди та&#160;обов&#8217;язково
+										до&#160;пологового будинку. Лікар також проведе гінекологічний огляд, зробить перше УЗД, визначить термін вагітності та&#160;направить
+										на&#160;необхідні аналізи.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">Як&#160;обрати лікаря для супроводу?</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										Щоб стати на&#160;облік у&#160;зв&#8217;язку з&#160;вагітністю, для початку потрібно вибрати лікаря. Потім для реєстрації будуть необхідні
+										паспорт та&#160;ідентифікаційний&#160;код. Вагітна заповнить &#171;Анкету вагітної&#187;. Лікар-гінеколог заповнить &#171;Індивідуальну карту
+										вагітної&#187; та&#160;видасть &#171;Обмінну карту&#187;. Обмінну карту слід брати на&#160;всі огляди та&#160;обов&#8217;язково
+										до&#160;пологового будинку. Лікар також проведе гінекологічний огляд, зробить перше УЗД, визначить термін вагітності та&#160;направить
+										на&#160;необхідні аналізи.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="tabs-list">
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">Як&#160;стати на&#160;облік?</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										Щоб стати на&#160;облік у&#160;зв&#8217;язку з&#160;вагітністю, для початку потрібно вибрати лікаря. Потім для реєстрації будуть необхідні
+										паспорт та&#160;ідентифікаційний&#160;код. Вагітна заповнить &#171;Анкету вагітної&#187;. Лікар-гінеколог заповнить &#171;Індивідуальну карту
+										вагітної&#187; та&#160;видасть &#171;Обмінну карту&#187;. Обмінну карту слід брати на&#160;всі огляди та&#160;обов&#8217;язково
+										до&#160;пологового будинку. Лікар також проведе гінекологічний огляд, зробить перше УЗД, визначить термін вагітності та&#160;направить
+										на&#160;необхідні аналізи.
+									</p>
+								</div>
+							</div>
+							<div class="tabs-item">
+								<div class="tabs-item__title">
+									<h3 class="h3">?</h3>
+									<svg class="svg-open">
+										<use href="./img/svgsprite/sprite.symbol.svg#open"></use>
+									</svg>
+									<svg class="svg-close">
+										<use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+									</svg>
+								</div>
+								<div class="tabs-item__desc">
+									<p class="body">
+										Щоб стати на&#160;облік у&#160;зв&#8217;язку з&#160;вагітністю, для початку потрібно вибрати лікаря. Потім для реєстрації будуть необхідні
+										паспорт та&#160;ідентифікаційний&#160;код. Вагітна заповнить &#171;Анкету вагітної&#187;. Лікар-гінеколог заповнить &#171;Індивідуальну карту
+										вагітної&#187; та&#160;видасть &#171;Обмінну карту&#187;. Обмінну карту слід брати на&#160;всі огляди та&#160;обов&#8217;язково
+										до&#160;пологового будинку. Лікар також проведе гінекологічний огляд, зробить перше УЗД, визначить термін вагітності та&#160;направить
+										на&#160;необхідні аналізи.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reviews" class="reviews">
+				<div class="container">
+					<h2 class="h2">Відгуки</h2>
+					<div class="reviews-list">
+						<div class="card-review">
+							<div class="review-video">
+								<video class="video" autoplay loop muted width="100%">
+									<source src="./img/video/pregnancy-support.mp4" type="video/mp4" />
+								</video>
+								<div class="review-btn">
+									<button class="svg-play-btn play-btn">
+										<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g filter="url(#filter0_b_436_1094)">
+												<circle cx="39" cy="39" r="35" fill="#BCDEC1" fill-opacity="0.6" />
+												<circle cx="39" cy="39" r="37" stroke="white" stroke-width="4" />
+											</g>
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M28.9995 30.6444C28.9995 28.7629 31.0169 27.5701 32.6662 28.4766L47.8926 36.8524C49.6013 37.7918 49.6013 40.2473 47.8926 41.1868L32.6676 49.5626C31.0183 50.4691 29.0008 49.2763 29.0008 47.3948L28.9995 30.6444Z"
+												fill="white"
+											/>
+											<defs>
+												<filter
+													id="filter0_b_436_1094"
+													x="-10"
+													y="-10"
+													width="98"
+													height="98"
+													filterUnits="userSpaceOnUse"
+													color-interpolation-filters="sRGB"
+												>
+													<feFlood flood-opacity="0" result="BackgroundImageFix" />
+													<feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+													<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_436_1094" />
+													<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_436_1094" result="shape" />
+												</filter>
+											</defs>
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="review-bottom">
+								<div class="card-info">
+									<div class="card-img body1-bold bg_light-pink">Y</div>
+									<div class="card-name">
+										<p class="body1-bold">Yuliia Zvonska</p>
+										<p class="caption">7 відгуків</p>
+									</div>
+								</div>
+								<div class="rating">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+								</div>
+								<p class="review-text body">
+									Під час вагітності здавала аналізи та&#160;проходила УЗД у&#160;даній лікарні. Задоволена усім, починаючи від ставлення дівчат на&#160;рецепції,
+									чистотою, відповідальністю лікарів. Ціни демократичні*) Щиро рекомендую!
+								</p>
+							</div>
+						</div>
+
+						<div class="card-review">
+							<div class="review-video">
+								<video class="video" autoplay loop muted width="100%">
+									<source src="./img/video/pregnancy-support.mp4" type="video/mp4" />
+								</video>
+								<div class="review-btn">
+									<button class="svg-play-btn play-btn">
+										<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g filter="url(#filter0_b_436_1094)">
+												<circle cx="39" cy="39" r="35" fill="#BCDEC1" fill-opacity="0.6" />
+												<circle cx="39" cy="39" r="37" stroke="white" stroke-width="4" />
+											</g>
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M28.9995 30.6444C28.9995 28.7629 31.0169 27.5701 32.6662 28.4766L47.8926 36.8524C49.6013 37.7918 49.6013 40.2473 47.8926 41.1868L32.6676 49.5626C31.0183 50.4691 29.0008 49.2763 29.0008 47.3948L28.9995 30.6444Z"
+												fill="white"
+											/>
+											<defs>
+												<filter
+													id="filter0_b_436_1094"
+													x="-10"
+													y="-10"
+													width="98"
+													height="98"
+													filterUnits="userSpaceOnUse"
+													color-interpolation-filters="sRGB"
+												>
+													<feFlood flood-opacity="0" result="BackgroundImageFix" />
+													<feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+													<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_436_1094" />
+													<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_436_1094" result="shape" />
+												</filter>
+											</defs>
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="review-bottom">
+								<div class="card-info">
+									<div class="card-img body1-bold bg_green-1">T</div>
+									<div class="card-name">
+										<p class="body1-bold">Татьяна Горобец</p>
+										<p class="caption">3 відгуки</p>
+									</div>
+								</div>
+								<div class="rating">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+								</div>
+								<p class="review-text body">
+									Затишно, чистенько, привітні дівчата на&#160;рецепшині, суперові лікарі, особливо хочу відмітити Ольгу Анатоліївну Мельникова (гінеколог), людина
+									з&#160;добрим серцем, порадить, вилікує, допоможе вирішити жіночі проблеми і взагалі красуня з&#160;нею приємно спілкуватися&#8230;
+								</p>
+							</div>
+						</div>
+
+						<div class="card-review">
+							<div class="review-video">
+								<video class="video" autoplay loop muted width="100%">
+									<source src="./img/video/pregnancy-support.mp4" type="video/mp4" />
+								</video>
+								<div class="review-btn">
+									<button class="svg-play-btn play-btn">
+										<svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g filter="url(#filter0_b_436_1094)">
+												<circle cx="39" cy="39" r="35" fill="#BCDEC1" fill-opacity="0.6" />
+												<circle cx="39" cy="39" r="37" stroke="white" stroke-width="4" />
+											</g>
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M28.9995 30.6444C28.9995 28.7629 31.0169 27.5701 32.6662 28.4766L47.8926 36.8524C49.6013 37.7918 49.6013 40.2473 47.8926 41.1868L32.6676 49.5626C31.0183 50.4691 29.0008 49.2763 29.0008 47.3948L28.9995 30.6444Z"
+												fill="white"
+											/>
+											<defs>
+												<filter
+													id="filter0_b_436_1094"
+													x="-10"
+													y="-10"
+													width="98"
+													height="98"
+													filterUnits="userSpaceOnUse"
+													color-interpolation-filters="sRGB"
+												>
+													<feFlood flood-opacity="0" result="BackgroundImageFix" />
+													<feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+													<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_436_1094" />
+													<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_436_1094" result="shape" />
+												</filter>
+											</defs>
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="review-bottom">
+								<div class="card-info">
+									<div class="card-img body1-bold bg_light-blue">B</div>
+									<div class="card-name">
+										<p class="body1-bold">Віта Варчук</p>
+										<p class="caption">1 відгук</p>
+									</div>
+								</div>
+								<div class="rating">
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="mask0_2162_863" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="21">
+											<path d="M20.2817 0.560547H0V20.8422H20.2817V0.560547Z" fill="white" />
+										</mask>
+										<g mask="url(#mask0_2162_863)">
+											<path
+												d="M4.57689 20.1358C4.08759 20.3868 3.53238 19.947 3.63125 19.3854L4.68336 13.3896L0.217589 9.13554C-0.199453 8.73752 0.017307 8.00991 0.576321 7.93132L6.78505 7.04906L9.55351 1.56413C9.80322 1.06977 10.4789 1.06977 10.7286 1.56413L13.497 7.04906L19.7058 7.93132C20.2648 8.00991 20.4815 8.73752 20.0645 9.13554L15.5987 13.3896L16.6508 19.3854C16.7497 19.947 16.1945 20.3868 15.7052 20.1358L10.1391 17.2761L4.57562 20.1358H4.57689Z"
+												fill="#FFE595"
+											/>
+										</g>
+									</svg>
+								</div>
+								<p class="review-text body">
+									Загальним враженням цього закладу залишилася задоволеною, лікар Башиєва Анастасія дуже кваліфікований працівник і до&#160;того ввічливо ставиться
+									до&#160;своїх пацієнтів.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="consultation">
+				<h2 class="h1-mobile">Запис на&#160;безоплатну консультацію</h2>
+				<p class="body">Запишіться на&#160;безоплатну консультацію з&#160;лікарем-гінекологом для обговорення індивідуального плану вагітності</p>
+				<form action="" class="form-contacts">
+					<input type="text" class="input" placeholder="Введіть ваше ім’я" />
+					<input type="tel" class="input" placeholder="+38(000)000-00-00" />
+					<button class="btn btn-success">Записатись</button>
+				</form>
+				<p class="caption">Відправляючи запит ви&#160;погоджуєтесь на&#160;обробку персональних данних</p>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container-full">
+				<div class="footer_body">
+					<div class="footer-logo">
+						<picture>
+							<source srcset="./img/logo-footer.webp 1x, ./img/logo-footer@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/logo-footer.jpg 1x, ./img/logo-footer@2x.jpg 2x" type="image/jpeg" />
+							<img src="./img/logo-footer.jpg" alt="Salutem" />
+						</picture>
+					</div>
+					<navigation class="menu">
+						<a href="#advantages" class="body smooth-scroll">Переваги</a>
+						<a href="#price" class="body smooth-scroll">Програми</a>
+						<a href="#doctors" class="body smooth-scroll">Лікарі</a>
+						<a href="#questions" class="body smooth-scroll">FAQ</a>
+						<a href="#reviews" class="body smooth-scroll">Відгуки</a>
+					</navigation>
+					<div class="footer-actions_wrapper">
+						<div class="footer-actions">
+							<a href="#" class="actions-tel">
+								<svg class="svg-tel">
+									<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+								</svg>
+								<span class="body1">0 800 338 008</span>
+							</a>
+							<a href="#" class="actions-email">
+								<svg class="svg-email">
+									<use href="./img/svgsprite/sprite.symbol.svg#email"></use>
+								</svg>
+								<span class="body1">info@salutem.ua</span>
+							</a>
+							<a href="#" class="actions-location">
+								<svg class="svg-location">
+									<use href="./img/svgsprite/sprite.symbol.svg#location"></use>
+								</svg>
+								<span class="body1">21001, Вінниця, вулиця Замостянська, 13</span>
+							</a>
+						</div>
+						<div class="social-media">
+							<div class="social">
+								<a href="#" class="">
+									<svg class="svg-instagram">
+										<use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+									</svg>
+								</a>
+								<a href="#" class="">
+									<svg class="svg-facebook">
+										<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+									</svg>
+								</a>
+								<a href="#" class="">
+									<svg class="svg-telegram">
+										<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<p class="caption">2024 &#169; Медичний центр Салютем</p>
+				</div>
+			</div>
+		</footer>
+
+		<!--	<script src="../src/lib/swiper/swiper-bundle.min.js"></script>-->
+		<!--	<script src="../lib/swiper/swiper-bundle.min.js"></script>-->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./js/index.bundle.js" defer></script>
+	</body>
+</html>

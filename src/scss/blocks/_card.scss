@@ -1,0 +1,169 @@
+.card {
+  box-sizing: border-box;
+  width: 316px;
+  height: 524px;
+  border-radius: 36px;
+  border: 1.2px solid rgba(214, 229, 229, 1);
+  margin: 0 auto;
+  text-align: center;
+
+
+  .card-text {
+    font-weight: 400;
+  }
+}
+
+.card-top {
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  overflow: hidden;
+  width: 100%;
+  height: 220px;
+  padding: 35px 16px;
+  position: relative;
+  z-index: 5;
+}
+
+.ellipse {
+  width: 478px;
+  height: 476px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  z-index: 6;
+  top: -250px;
+  left: -80px;;
+
+}
+
+.ellipse-start {
+  background-color: rgba(241, 255, 243, 1);
+}
+
+.ellipse-optimal {
+  background-color: var(--pink);
+}
+
+.ellipse-all {
+  background-color: var(--purple);
+}
+
+.ellipse-all_twice {
+  background-color: var(--yellow);
+}
+
+.title {
+  padding-top: 286px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgba(45, 63, 72, 1);;
+}
+
+.name {
+  margin-top: 12px;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: rgba(45, 63, 72, 1);
+}
+
+
+.header-info {
+  margin-top: 28px;
+  display: flex;
+  gap: 24px;
+  width: 260px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 800;
+  color: rgba(0, 61, 90, 1);
+}
+
+.svg-star {
+  width: 64px;
+  height: 64px;
+}
+
+.svg-star_start {
+  fill: rgba(188, 222, 193, 1);
+}
+
+.svg-star_optimal {
+  fill: #FFD1F8;
+}
+
+.svg-star_all {
+  fill: #C5D0FF;
+}
+
+.svg-star_all-twice {
+  fill: #FFE595;
+}
+
+.card-bottom {
+  position: relative;
+  z-index: 4;
+  padding: 20px 16px 35px;
+  height: 204px;
+
+}
+
+.card-body {
+  height: 170px;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-text caption p {
+  height: 170px;
+  text-align: center;
+  color: var(--black);
+}
+
+.card-footer {
+  padding: 26px 16px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-weight: 500;
+    color: var(--black);
+  }
+
+  p .body {
+    font-weight: 700;
+    color: var(--light-black);
+  }
+}
+
+.card-left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+  .trimester-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-weight: 700;
+    background-color: var(--green-1);
+    color: var(--light-black);
+  }
+}

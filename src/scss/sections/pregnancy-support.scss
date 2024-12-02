@@ -1,0 +1,142 @@
+.pregnancy-support {
+  .h2 {
+    color: var(--light-black);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .video-container {
+    margin: 56px auto 40px;
+    //background-image: url("../../img/pregnancy-support.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: remy(1088);
+    max-height: remy(680);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      margin: 40px auto;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .svg-play-btn {
+      position: absolute;
+      transform: translate(-50%, -50%);
+
+      @media (max-width: 768px) {
+        transform: none;
+      }
+    }
+  }
+}
+
+.pregnancy-support_cards {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1199px) {
+    flex-direction: column;
+    gap: remy(12);
+  }
+
+  .cards-left, .cards-right {
+    display: flex;
+    flex-direction: column;
+    gap: remy(16);
+
+    @media (max-width: 1199px) {
+      gap: remy(12);
+    }
+  }
+
+  .pregnancy-support_card {
+    display: flex;
+    align-items: center;
+    gap: remy(24);
+    border: 1px solid var(--gray-blue);
+    border-radius: remy(24);
+    padding: remy(12);
+    width: remy(530);
+    height: remy(120);
+    background-color: var(--white);
+
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      overflow-y: auto;
+    }
+
+    .card-img {
+      border-radius: 45px;
+      width: 70px;
+      height: 70px;
+      flex-shrink: 0;
+    }
+
+    .body {
+      font-weight: 500;
+      color: var(--black)
+    }
+
+    .body-bold {
+      color: var(--light-black);
+    }
+  }
+
+  .card-green {
+    background: var(--green-2);
+  }
+
+  .card-yellow {
+    background: var(--yellow);
+  }
+
+  .card-pink {
+    background: var(--pink);
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .img-about1 {
+    background-image: url("../../img/about-1.jpg");
+  }
+
+  .img-about2 {
+    background-image: url("../../img/about-2.jpg");
+  }
+
+  .img-about3 {
+    background-image: url("../../img/about-3.jpg");
+  }
+
+  .img-about4 {
+    background-image: url("../../img/about-4.jpg");
+  }
+
+  .img-about5 {
+    background-image: url("../../img/about-5.jpg");
+  }
+
+  .img-about6 {
+    background-image: url("../../img/about-6.jpg");
+  }
+
+  .img-about7 {
+    background-image: url("../../img/about-7.jpg");
+  }
+
+  .img-about8 {
+    background-image: url("../../img/about-8.jpg");
+  }
+}

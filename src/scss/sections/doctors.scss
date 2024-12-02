@@ -1,0 +1,40 @@
+.doctors {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .h2 {
+    color: var(--light-black);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .mySwiper {
+    position: relative;
+    margin-top: 60px;
+
+    @media (max-width: 991px) {
+      margin-top: 32px;
+    }
+
+    .swiper-wrapper {
+      width: 1312px;
+    }
+
+    .slider-navigation {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+      position: absolute;
+      top: 533px;
+      right: 0;
+      z-index: 2;
+
+      @media (max-width: 1330px) {
+        display: none;
+      }
+    }
+  }
+}
+

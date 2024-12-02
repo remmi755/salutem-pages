@@ -1,0 +1,117 @@
+.h1 {
+  font-size: remy(56);
+  line-height: 1.2;
+
+  @media (max-width: 768px) {
+    font-size: remy(32);
+  }
+}
+
+.h2, .h3, .h1-mobile, .h2-mobile, .h3-mobile, .display-1, .display-2, .display-3, .body1-bold, .body-bold, .body, .body1, .caption {
+  line-height: 1.3;
+}
+
+.h2 {
+  font-size: remy(36);
+
+    @media (max-width: 768px) {
+        font-size: remy(24);
+    }
+}
+
+.h3 {
+  font-size: remy(20);
+}
+
+.h1-mobile {
+  font-size: remy(32);
+}
+
+.h2-mobile {
+  font-size: remy(24);
+}
+
+.h3-mobile {
+  font-size: remy(20);
+}
+
+.display-1 {
+  font-size: remy(32);
+}
+
+.display-2 {
+  font-size: remy(28);
+}
+
+.display-3 {
+  font-size: remy(22);
+}
+
+.body1-bold {
+  font-size: remy(18);
+  font-weight: 700;
+}
+
+.body-bold {
+  font-size: remy(16);
+  font-weight: 700;
+}
+
+.body {
+  font-size: remy(16);
+}
+
+.body1 {
+  font-size: remy(18);
+}
+
+.caption {
+  font-size: remy(13);
+}
+
+.accent-span {
+  color: var(--subAc);
+}
+
+.txt-accent {
+  color: var(--ac) !important;
+}
+
+//@media (max-width: remy(1199)) {
+//  .h1 {
+//    font-size: remy(54);
+//  }
+//  .h2 {
+//    font-size: remy(52);
+//  }
+//}
+//
+//
+//@media (max-width: remy(991)) {
+//  .h2 {
+//    font-size: remy(48);
+//  }
+//}
+//
+//@media (max-width: remy(767)) {
+//  .h1 {
+//    font-size: remy(32);
+//  }
+//  .h2 {
+//    font-size: remy(42);
+//  }
+//  .h3 {
+//    font-size: remy(26);
+//    line-height: 1.19;
+//  }
+//  .h4 {
+//    line-height: 1.2;
+//  }
+//  .h5 {
+//    font-size: remy(26);
+//    line-height: 1.19;
+//  }
+//  .subtitle {
+//    font-size: remy(16);
+//  }
+//}

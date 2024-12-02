@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--!
+Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+Copyright 2024 Fonticons, Inc.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="startex" viewBox="0 0 64 64">
+        <g>
+            <mask id="mask0_535_1159" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="64"
+                  height="64">
+                <path d="M32 0C32.0125 17.6679 46.3321 31.9875 64 32C46.3321 32.0125 32.0125 46.3321 32 64C31.9875 46.3321 17.6679 32.0125 0 32C17.6679 31.9875 31.9875 17.6679 32 0Z"/>
+            </mask>
+            <g mask="url(#mask0_535_1159)">
+                <rect width="76.5607" height="76.5607" transform="matrix(0 1 1 0 -5.71436 -7.04004)"/>
+            </g>
+        </g>
+    </symbol>
+</svg>

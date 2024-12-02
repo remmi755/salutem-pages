@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Salutem</title>
+    <!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />-->
+    <link rel="stylesheet" href="../lib/swiper/swiper-bundle.min.css"/>
+    <!--	<link rel="stylesheet" href="../src/lib/swiper/swiper-bundle.min.css" />-->
+    <link rel="stylesheet" href="./css/main.css"/>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body>
+@@include('blocks/popup.html')
+@@include('blocks/popup-success.html')
+@@include('section/header.html')
+@@include('blocks/mobile-menu.html')
+<main class="main">
+
+    @@include('section/hero.html')
+    @@include('section/pregnancy-support.html')
+    @@include('section/advantages.html')
+    @@include('section/price.html')
+    @@include('section/stages.html')
+    @@include('section/steps.html')
+    @@include('section/doctors.html')
+    @@include('section/questions.html')
+    @@include('section/reviews.html')
+    @@include('section/contacts.html')
+
+</main>
+@@include('section/footer.html')
+
+<!--	<script src="../src/lib/swiper/swiper-bundle.min.js"></script>-->
+<!--	<script src="../lib/swiper/swiper-bundle.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.bundle.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+//.svg-search {
+//  fill: currentColor;
+//  width: remy(20);
+//  height: remy(20);
+//  transform: rotate(90deg);
+//}
+//
+.svg-logo {
+  fill: var(--primary);
+  width: remy(184);
+  height: remy(56);
+}
+
+.svg-tel {
+  fill: var(--primary);
+  width: remy(16);
+  height: remy(16);
+}
+
+.svg-instagram, .svg-facebook, .svg-telegram {
+  fill: var(--primary);
+  width: remy(28);
+  height: remy(28);
+}
+
+.social-media {
+  .svg-instagram, .svg-facebook, .svg-telegram {
+    fill: var(--white);
+    width: remy(32);
+    height: remy(32);
+  }
+}
+
+.svg-play-btn {
+  fill: #BCDEC1;
+  stroke: white;
+  width: remy(70);
+  height: remy(70);
+  cursor: pointer;
+}
+
+.svg-diagnostic, .svg-puzzle, .svg-cardiogram, .svg-mind, .svg-earth-globe, .svg-network {
+  fill: #2D3F48;
+  width: remy(24);
+  height: remy(24);
+}
+
+.svg-close {
+  width: remy(18);
+  height: remy(18);
+  stroke: var(--black);
+  cursor: pointer;
+}
+
+.svg-open {
+  width: remy(18);
+  height: remy(18);
+  stroke: var(--light-gray);
+  cursor: pointer;
+}
+
+.svg_hamburger-menu {
+  stroke: var(--primary);
+  fill: var(--primary);
+  width: remy(20);
+  height: remy(20);
+}
+
+
+.steps-bottom {
+  .svg-instagram, .svg-facebook, .svg-telegram {
+    fill: var(--primary);
+    width: remy(36);
+    height: remy(36);
+  }
+
+  .svg-phone2 {
+    stroke: var(--primary);
+    fill: white;
+    width: remy(26);
+    height: remy(26);
+  }
+}
+
+.svg-arrow-down {
+  fill: var(--primary);
+  width: remy(28);
+  height: remy(28);
+}
+
+.svg-arrow-up {
+  fill: var(--primary);
+  width: remy(28);
+  height: remy(28);
+}
+
+.svg-prev, .svg-next {
+  width: remy(20);
+  height: remy(20);
+}
+
+.star-full {
+  fill: #FFE595;
+  width: remy(21);
+  height: remy(21);
+}
+
+.svg_logo-footer {
+  fill: white;
+  width: remy(184);
+  height: remy(56);
+}
+
+.svg-email {
+  fill: white;
+  width: remy(20);
+  height: remy(20);
+}
+
+.svg-location {
+  fill: white;
+  width: remy(20);
+  height: remy(20);
+}
+
+
+
